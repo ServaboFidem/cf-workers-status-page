@@ -30,7 +30,7 @@ monitors:
     description: 'Hommati Frontend Server #1 - Chicago'
     url: 'https://chicago-upgrade.hommati.com'
     method: GET
-    expectStatus: 301
+    expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
   - id: chicago-web-2
@@ -38,7 +38,7 @@ monitors:
     description: 'Hommati Frontend Server #2 - Chicago'
     url: 'https://safetynet.hommati.com'
     method: GET
-    expectStatus: 301
+    expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
   - id: chicago-web-3
@@ -46,7 +46,7 @@ monitors:
     description: 'Hommati Frontend Server #3 - Chicago'
     url: 'https://safetynet2.hommati.com'
     method: GET
-    expectStatus: 301
+    expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
   - id: chicago-web-4
@@ -54,5 +54,5 @@ monitors:
     description: 'Hommati Frontend Server #4 - Chicago'
     url: 'https://safetynet3.hommati.com'
     method: GET
-    expectStatus: 301
+    expectStatus: 200
     linkable: false # allows the title to be a link, default=true
