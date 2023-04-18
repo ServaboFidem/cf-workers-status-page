@@ -1,6 +1,6 @@
 settings:
-  title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  title: 'Hommati Status Page'
+  url: 'https://breakerbreaker.hommati.com' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -17,23 +17,41 @@ settings:
 monitors:
   - id: workers-cloudflare-com # unique identifier
     name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'Cloudflare Workers.' # default=empty
     url: 'https://workers.cloudflare.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: hommati-web-1
+    name: hommati-web-1
+    description: 'Hommati Frontend Server #1.'
+    url: 'http://chicago-upgrade.hommati.com'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: hommati-web-2
+    name: hommati-web-2
+    description: 'Hommati Frontend Server #2.'
+    url: 'http://safetynet.hommati.com'
     method: GET
     expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+
+  - id: hommati-web-3
+    name: hommati-web-3
+    description: 'Hommati Frontend Server #3.'
+    url: 'http://safetynet2.hommati.com'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+
+  - id: hommati-web-4
+    name: hommati-web-4
+    description: 'Hommati Frontend Server #4.'
+    url: 'http://safetynet3.hommati.com'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
