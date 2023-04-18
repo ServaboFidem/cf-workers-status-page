@@ -1,6 +1,6 @@
 # fun for all
 settings:
-  title: 'Hommati Status Page'
+  title: 'Systems Status Report'
   url: 'https://breakerbreaker.hommati.com' # used for Slack messages
   logo: logo_new_10.webp # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
