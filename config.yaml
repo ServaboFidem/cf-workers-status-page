@@ -2,7 +2,7 @@
 settings:
   title: 'Hommati Status Page'
   url: 'https://breakerbreaker.hommati.com' # used for Slack messages
-  logo: logo-192x192.png # image in ./public/ folder
+  logo: logo_new_10.webp # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
