@@ -25,34 +25,34 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: hommati-web-1
-    name: hommati-web-1
-    description: 'Hommati Frontend Server #1.'
+  - id: chicago-web-1
+    name: chicago-web-1
+    description: 'Hommati Frontend Server #1 - Chicago'
     url: 'https://chicago-upgrade.hommati.com'
     method: GET
-    expectStatus: 200
+    expectStatus: 301
     linkable: false # allows the title to be a link, default=true
 
-  - id: hommati-web-2
-    name: hommati-web-2
-    description: 'Hommati Frontend Server #2.'
+  - id: chicago-web-2
+    name: chicago-web-2
+    description: 'Hommati Frontend Server #2 - Chicago'
     url: 'https://safetynet.hommati.com'
     method: GET
-    expectStatus: 200
+    expectStatus: 301
     linkable: false # allows the title to be a link, default=true
 
-  - id: hommati-web-3
-    name: hommati-web-3
-    description: 'Hommati Frontend Server #3.'
+  - id: chicago-web-3
+    name: chicago-web-3
+    description: 'Hommati Frontend Server #3 - Chicago'
     url: 'https://safetynet2.hommati.com'
     method: GET
-    expectStatus: 200
+    expectStatus: 301
     linkable: false # allows the title to be a link, default=true
 
-  - id: hommati-web-4
-    name: hommati-web-4
-    description: 'Hommati Frontend Server #4.'
+  - id: chicago-web-4
+    name: chicago-web-4
+    description: 'Hommati Frontend Server #4 - Chicago'
     url: 'https://safetynet3.hommati.com'
     method: GET
-    expectStatus: 200
+    expectStatus: 301
     linkable: false # allows the title to be a link, default=true
