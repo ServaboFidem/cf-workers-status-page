@@ -25,34 +25,58 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: chicago-web-1
-    name: chicago-web-1
+  - id: safetynet-1
+    name: safetynet-1
     description: 'Hommati Frontend Server #1 - Chicago'
-    url: 'https://chicago-upgrade.hommati.com'
-    method: GET
-    expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
-
-  - id: chicago-web-2
-    name: chicago-web-2
-    description: 'Hommati Frontend Server #2 - Chicago'
     url: 'https://safetynet.hommati.com'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
-  - id: chicago-web-3
-    name: chicago-web-3
-    description: 'Hommati Frontend Server #3 - Chicago'
+  - id: safetynet-2
+    name: safetynet-2
+    description: 'Hommati Frontend Server #2 - Chicago'
     url: 'https://safetynet2.hommati.com'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
-  - id: chicago-web-4
-    name: chicago-web-4
-    description: 'Hommati Frontend Server #4 - Chicago'
+  - id: safetynet-3
+    name: safetynet-3
+    description: 'Hommati Frontend Server #3 - Chicago'
     url: 'https://safetynet3.hommati.com'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+
+  - id: safetynet-4
+    name: safetynet-4
+    description: 'Hommati Frontend Server #4 - Chicago'
+    url: 'https://safetynet4.hommati.com'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+
+  - id: apibox
+    name: apibox
+    description: 'Hommati General API Server'
+    url: 'https://apibox.hommati.com'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+
+  - id: imaging-api
+    name: imaging-api
+    description: 'Hommati Imaging API Server'
+    url: 'https://imaging-api.hommati.com'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+
+  - id: hommati-tours
+    name: hommati-tours
+    description: 'Hommati Tours API'
+    url: 'https://api.hommati.tours'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
