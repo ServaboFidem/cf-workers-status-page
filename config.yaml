@@ -1,7 +1,7 @@
 # fun for all
 settings:
   title: 'Systems Status Report'
-  url: 'https://breakerbreaker.hommati.com' # used for Slack messages
+  url: 'https://status.hommati.com' # used for Slack messages
   logo: logo_new_10.webp # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -31,7 +31,7 @@ monitors:
     url: 'https://safetynet.hommati.com'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: safetynet-2
     name: safetynet-2
@@ -39,7 +39,7 @@ monitors:
     url: 'https://safetynet2.hommati.com'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: safetynet-3
     name: safetynet-3
@@ -47,7 +47,7 @@ monitors:
     url: 'https://safetynet3.hommati.com'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: safetynet-4
     name: safetynet-4
@@ -55,20 +55,20 @@ monitors:
     url: 'https://safetynet4.hommati.com'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: apibox
     name: apibox
     description: 'Hommati General API Server'
-    url: 'https://apibox.hommati.com'
+    url: 'https://apibox.hommati.cloud/status/build/timestamp'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: imaging-api
     name: imaging-api
     description: 'Hommati Imaging API Server'
-    url: 'https://imaging-api.hommati.com'
+    url: 'https://imaging.hommati.cloud/status/build/timestamp'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
@@ -79,4 +79,4 @@ monitors:
     url: 'https://api.hommati.tours'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
