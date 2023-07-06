@@ -71,7 +71,7 @@ monitors:
     url: 'https://imaging.hommati.cloud/status/build/timestamp'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: hommati-tours
     name: hommati-tours
