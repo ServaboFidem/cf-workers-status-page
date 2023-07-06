@@ -13,7 +13,7 @@ settings:
   monitorLabelNoData: 'No data'
   dayInHistogramNoData: 'No data'
   dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded - something else...
 
 monitors:
   - id: workers-cloudflare-com # unique identifier
