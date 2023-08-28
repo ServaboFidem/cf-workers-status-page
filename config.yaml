@@ -25,10 +25,10 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: safetynet-1
-    name: safetynet-1
-    description: 'Hommati Frontend Server #1 - Chicago'
-    url: 'https://safetynet.hommati.com'
+  - id: ord1-web1
+    name: ord1-web1
+    description: 'Hommati Frontend Server #1 - Chicago ORD1'
+    url: 'https://ord1-web1.hommati.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
